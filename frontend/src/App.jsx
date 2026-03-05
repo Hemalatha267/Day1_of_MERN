@@ -3,8 +3,8 @@
 import React, { createContext } from "react"
 import { Routes, Route } from "react-router-dom"
 
-import Navbar from "./Components/Navbar";
-import User from "./Components/User"
+import Navbar from "./components/Navbar"
+import User from "./components/User"
 import Parent from "./components/Parent"
 import State from "./hooks/State"
 import Form from "./hooks/Form"
@@ -21,7 +21,7 @@ export const userContext = createContext()
 
 const App = () => {
 
-  const name = "Hema"
+  const name = "Bindu"
 
   return (
     <userContext.Provider value={{ name }}>
