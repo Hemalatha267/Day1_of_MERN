@@ -1,9 +1,9 @@
 import React from "react";
-import Conditional from "../components/Conditional";
+import Conditional from "../Components/Conditional";
 import Form from "../hooks/Form";
 import State from "../hooks/State";
-import Parent from "../components/Parent";
-import User from "../components/User";
+import Parent from "../Components/Parent";
+import User from "../Components/User";
 
 const Home = () => {
   return (

@@ -3,12 +3,12 @@
 import React, { createContext } from "react"
 import { Routes, Route } from "react-router-dom"
 
-import Navbar from "./components/Navbar"
-import User from "./components/User"
-import Parent from "./components/Parent"
+import Navbar from "./Components/Navbar"
+import User from "./Components/User"
+import Parent from "./Components/Parent"
 import State from "./hooks/State"
 import Form from "./hooks/Form"
-import Conditional from "./components/Conditional"
+import Conditional from "./Components/Conditional"
 
 import Reducer from "./hooks/Reducer";
 import ProductDetails from "./pages/ProductDetails"
