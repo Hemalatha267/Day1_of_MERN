@@ -3,7 +3,7 @@
 import React, { createContext } from "react"
 import { Routes, Route } from "react-router-dom"
 
-import Navbar from "../src/components/Navbar"
+import Navbar from "./components/Navbar"
 import User from "./components/User"
 import Parent from "./components/Parent"
 import State from "./hooks/State"
